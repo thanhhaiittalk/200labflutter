@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       children: [
         Container(
           color: Colors.black54,
-          margin: EdgeInsets.fromLTRB(width/5, height*0.45, width*0.6, height*0.35),
+          margin: EdgeInsets.fromLTRB(width*0.14, height*0.5, width*0.5, height*0.29),
         )
       ],
     );
@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               Expanded(
-                  flex: 1,
+                  flex: 2,
                   child: Row(
                     children: [
                       Expanded(
